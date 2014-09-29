@@ -6,5 +6,5 @@ env:
   global:
     - JRUBY_OPTS="-J-Xmn512m -J-Xms2048m -J-Xmx2048m -J-XX:MaxPermSize=2048M -J-server"
 before_install:
-  - "yes | gem uninstall bundler -aI"
+  - gem uninstall -i /home/travis/.rvm/gems/ruby-2.1.2@global bundler
   - gem install bundler -v 1.7.2
