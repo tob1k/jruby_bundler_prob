@@ -1,0 +1,6 @@
+language: ruby
+rvm:
+  - jruby-19mode
+env:
+  global:
+    - JRUBY_OPTS="-J-Xmn512m -J-Xms2048m -J-Xmx2048m -J-XX:MaxPermSize=2048M -J-server"

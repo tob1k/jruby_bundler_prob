@@ -1,0 +1,15 @@
+GIT
+  remote: git://github.com/k3rni/permalink_fu.git
+  revision: ff10f6d99c7ee06fcbe9643d543e74ce2cf16458
+  specs:
+    permalink_fu (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  permalink_fu (= 0.0.1)!
